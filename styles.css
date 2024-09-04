@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    }
+    body {
+        height: 100vh;
+    }
+    .header {
+        height: 30vh;
+        background: radial-gradient(at 0% 30%, rgb(26, 255, 0) 10px, rgb(153, 0, 255) 30%, #2a0154 60%);
+        text-align: left;
+    }
+    .main {
+        height: 40vh;
+    }
+    .footer {
+        height: 30vh;
+    }
