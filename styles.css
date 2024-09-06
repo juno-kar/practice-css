@@ -5,15 +5,48 @@
     }
     body {
         height: 100vh;
+        display: flex;
+        flex-direction: column;
     }
     .header {
         height: 30vh;
-        background: radial-gradient(at 0% 30%, rgb(26, 255, 0) 10px, rgb(153, 0, 255) 30%, #2a0154 60%);
-        text-align: left;
+        background: linear-gradient(rgb(26, 26, 25), 80%, #6b8fd7);
+        display: flex;
+        align-items: center;
+        justify-content: left;
+
+        padding-left: 30px;
     }
     .main {
         height: 40vh;
+        align-items: center;
+        background: radial-gradient(at 50% 90%, rgb(226, 185, 96) 10px, rgb(236, 120, 149) 30%, #6b8fd7 60%);
+        text-align: center;
+        display: flex;
+        justify-content: center;
     }
     .footer {
         height: 30vh;
+        background: linear-gradient(360deg, rgb(26, 26, 25), 80%, #344360);   
+        align-items: center;
+        display: flex;
+        justify-content: end;
+
+        padding-right: 30px;
+    }
+    .text {
+        font-family: "DM Sans", sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+
+        background: -webkit-linear-gradient(#86aaf1, rgb(229, 86, 122));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+    #center {
+        background: black;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
     }
